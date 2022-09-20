@@ -19,7 +19,7 @@ AZURE_CONTAINER = 'imagefiles'
 
 
 # Add your Computer Vision subscription key and endpoint to your environment variables.
-subscription_key = 'e8ff37d6d524429ba65f465d4af9fd58'
+subscription_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 #endpoint = 'https://azcompvisn2.cognitiveservices.azure.com' + "/vision/v2.1/analyze"
 endpoint = 'https://azcompvisn2.cognitiveservices.azure.com' + '/vision/v3.2/describe'
 
