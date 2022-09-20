@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=xxxxxxxxxxxxxxxxx;AccountKey=XXXXXXXXXXXXXXXXXXXXX",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "computervisionblobinstg_STORAGE": "DefaultEndpointsProtocol=https;AccountName=xxxxxxxxxx;AccountKey=xxxxxxxx;EndpointSuffix=core.windows.net",
+    "azcompvisncosmosdb_DOCUMENTDB": "AccountEndpoint=https://xxxxxx.documents.azure.com:443/;AccountKey=xxxx==;"
+  }
+}

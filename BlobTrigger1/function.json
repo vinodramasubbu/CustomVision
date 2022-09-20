@@ -1,0 +1,21 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "imagefiles/{name}",
+      "connection": "computervisionblobinstg_STORAGE"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "out",
+      "name": "outputDocument",
+      "databaseName": "CrashDetectionDB",
+      "collectionName": "CrashDetectionCollection",
+      "createIfNotExists": true,
+      "connectionStringSetting": "azcompvisncosmosdb_DOCUMENTDB"
+    }
+  ]
+}
